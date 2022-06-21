@@ -1,0 +1,11 @@
+derived_id,dim_items_derived_id,customer_item_name,criticalities
+1,1,202.MO001.001,HotItem
+2,2,202.RE005.501,HotItem
+3,3,202.RE001.401,HotItem
+4,4,202.RE001.402,HotItem
+5,5,202.RE001.403,HotItem
+6,6,202.RE001.404,NULL
+7,7,202.MO001.301,NULL
+8,8,202.MO001.302,NULL
+9,9,202.MO001.303,NULL
+10,10,202.RE001.405,NULL

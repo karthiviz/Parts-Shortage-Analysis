@@ -1,0 +1,3 @@
+node_inventory_node_id,measure_date,impacted_qty,currency,measure,object_id,customer_item_name,quantity,sell_price,
+1,5/1/2021,79.5,USD,salesOrder,TESTSO_10010,202.MO001.001,190,300,57000
+2,5/1/2021,55,USD,salesOrder,TESTSO_10011,202.RE005.501,320,1169,374080

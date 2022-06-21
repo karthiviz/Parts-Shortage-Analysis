@@ -1,0 +1,13 @@
+SELECT TOP 20 derived_id, dim_items_derived_id, customer_item_name,
+criticalities 
+FROM node_inventory;
+
+SELECT TOP 20 node_inventory_derived_id, measure_date,
+quantity
+FROM node_inventory_projected_inventory;
+
+SELECT bom.bom_id, bom.parent_item_name, bom.child_item_name,
+bom.quantity_per, bom.lead_time, items.critical_item, items.alternate_item
+FROM showcase_bom as bom
+LEFT JOIN showcase_dim_items as items
+ON bom.child_item_name = items.item_name;
